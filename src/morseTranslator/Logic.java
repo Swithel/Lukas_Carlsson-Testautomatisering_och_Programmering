@@ -1,29 +1,60 @@
 package morseTranslator;
 
-
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Logic {
 
     private String[] myInputArray;
+    private String output = "";
 
     public void translateEnglish(String input) {
-        String inputToUpper = input.toUpperCase();
-        myInputArray = inputToUpper.split("");
-        for (int i = 0; i < input.length(); i++) {
-            System.out.print(myHashMap.get(myInputArray[i]));
-            System.out.print(" ");
-        }
+        Scanner scan = new Scanner(System.in);
+        boolean containsNull = true;
+        String check = input;
 
+        while (containsNull) {
+            output = "";
+            String inputToUpper = check.toUpperCase();
+            myInputArray = inputToUpper.split("");
+            for (int i = 0; i < check.length(); i++) {
+                output += myHashMap.get(myInputArray[i]);
+                output += " ";
+            }
+            if (!output.contains("null")) {
+                containsNull = false;
+            } else {
+                System.out.println("Felaktig inmatning, använd bara engelska bokstäver, nummer och dessa tecken: ',' '.' '?'."
+                        + "\n" + "Var god försök igen:");
+                check = scan.nextLine();
+            }
+        }
     }
 
     public void translateMorse(String input) {
-        myInputArray = input.split(" ");
-        for (int i = 1; i < input.length(); i++) {
-            System.out.print(reversedMyHashMap.get(myInputArray[i]));
+        Scanner scan = new Scanner(System.in);
+        boolean containsNull = true;
+        String check = input;
+
+        while (containsNull) {
+            output = "";
+            myInputArray = check.split(" ");
+            for (String s : myInputArray) {
+                output += reversedMyHashMap.get(s);
+            }
+            if (!output.contains("null")) {
+                containsNull = false;
+            } else {
+                System.out.println("Felaktig inmatning, använd bara: '*' '-' '/' eller 'space'."
+                        + "\n" + "Var god försök igen:");
+                check = scan.nextLine();
+            }
         }
     }
 
+    public String getOutput() {
+        return output.trim();
+    }
 
     static HashMap<String, String> myHashMap = new HashMap<>();
 

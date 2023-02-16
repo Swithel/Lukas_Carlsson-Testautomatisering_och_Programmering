@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e898c1d-d535-4ab5-ba6c-07711451d00f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lukas Carlsson - Testautomatisering och Programmering Assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/morseTranslator/Logic.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/morseTranslator/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/morseTranslator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/morseTranslator/TDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smallFunctions/AnimalCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smallFunctions/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smallFunctions/HashMapTest.java" afterDir="false" />
+    <list default="true" id="8e898c1d-d535-4ab5-ba6c-07711451d00f" name="Changes" comment="Yes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/morseTranslator/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/morseTranslator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/morseTranslator/TDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/TDDTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +28,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LBbhevUC7vlC613gFhiC849QBs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,43 +46,10 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/IntelliJProjects/Lukas Carlsson - Introduktion till programmering"
+    "last_opened_file_path": "C:/IntelliJProjects/Testautomatisering och Programmering"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.morseTranslator.Main">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="smallFunctions.ArrayListTest" />
-      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="smallFunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="smallFunctions.HashMapTest" />
-      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="smallFunctions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TDDTest.testEnglishToMorse2">
     <configuration name="morseTranslator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="morseTranslator.Main" />
       <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
@@ -98,12 +63,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="morseTranslator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="morseTranslator" />
+      <option name="MAIN_CLASS_NAME" value="morseTranslator.TDDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDDTest.testEnglishToMorse2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="morseTranslator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="morseTranslator" />
+      <option name="MAIN_CLASS_NAME" value="morseTranslator.TDDTest" />
+      <option name="METHOD_NAME" value="testEnglishToMorse2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDDTest.testMorseToEnglish1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="morseTranslator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="morseTranslator" />
+      <option name="MAIN_CLASS_NAME" value="morseTranslator.TDDTest" />
+      <option name="METHOD_NAME" value="testMorseToEnglish1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDDTest.testMorseToEnglish2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lukas Carlsson - Testautomatisering och Programmering Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="morseTranslator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="morseTranslator" />
+      <option name="MAIN_CLASS_NAME" value="morseTranslator.TDDTest" />
+      <option name="METHOD_NAME" value="testMorseToEnglish2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TDDTest.testEnglishToMorse2" />
         <item itemvalue="Application.morseTranslator.Main" />
-        <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TDDTest.testMorseToEnglish2" />
+        <item itemvalue="JUnit.TDDTest" />
+        <item itemvalue="JUnit.TDDTest.testMorseToEnglish1" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675347545706</updated>
     </task>
+    <task id="LOCAL-00001" summary="Yes">
+      <created>1675947299724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675947299724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yes" />
   </component>
 </project>
