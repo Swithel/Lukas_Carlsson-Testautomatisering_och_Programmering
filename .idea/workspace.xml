@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e898c1d-d535-4ab5-ba6c-07711451d00f" name="Changes" comment="Yes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/morseTranslator/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/morseTranslator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/morseTranslator/TDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/morseTranslator/TDDTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e898c1d-d535-4ab5-ba6c-07711451d00f" name="Changes" comment="I am done now!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +147,19 @@
       <option name="project" value="LOCAL" />
       <updated>1675947299724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="I am done now!">
+      <created>1676555852827</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1676555852827</updated>
+    </task>
+    <task id="LOCAL−00003" summary="I am done now!">
+      <created>1676555888052</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1676555888052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Yes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yes" />
+    <MESSAGE value="I am done now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="I am done now!" />
   </component>
 </project>
